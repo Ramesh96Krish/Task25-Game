@@ -1,0 +1,35 @@
+.header{
+    text-align: center;
+}
+.title{
+    color: darkslategray;
+}
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+    padding: 5px;
+    background-color: orchid;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.choiceBtn:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.3 ease;
+}
+#gameDiv{
+    font-family:  Georgia, serif;;
+    border: 2px double goldenrod;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 1089px;
+}
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
+}
